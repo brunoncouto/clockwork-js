@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main, div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+div{
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 20px;
+}
+span{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+input{
+    border:none;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+}
+.clock{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+#hour, #min, #sec{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 5px;
+}
